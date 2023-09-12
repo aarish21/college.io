@@ -14,6 +14,21 @@
 		6FE88CC22AA7B44C003012F0 /* college_ioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE88CC12AA7B44C003012F0 /* college_ioTests.swift */; };
 		6FE88CCC2AA7B44C003012F0 /* college_ioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE88CCB2AA7B44C003012F0 /* college_ioUITests.swift */; };
 		6FE88CCE2AA7B44C003012F0 /* college_ioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE88CCD2AA7B44C003012F0 /* college_ioUITestsLaunchTests.swift */; };
+		6FE88CDB2AA7B697003012F0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE88CDA2AA7B696003012F0 /* LoginView.swift */; };
+		6FE88CDE2AA7BE2D003012F0 /* SwiftCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 6FE88CDD2AA7BE2D003012F0 /* SwiftCSV */; };
+		6FE88CE02AA7BEA5003012F0 /* CollegeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE88CDF2AA7BEA5003012F0 /* CollegeData.swift */; };
+		6FE88CE22AA7BF77003012F0 /* colleges.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6FE88CE12AA7BF77003012F0 /* colleges.csv */; };
+		6FE88CE42AA7C2A9003012F0 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE88CE32AA7C2A9003012F0 /* RegistrationView.swift */; };
+		6FE88CE82AA8886E003012F0 /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE88CE72AA8886E003012F0 /* PostsView.swift */; };
+		6FE88CEB2AA8999C003012F0 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE88CEA2AA8999C003012F0 /* FeedView.swift */; };
+		6FE88CEE2AA8A036003012F0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE88CED2AA8A036003012F0 /* MainView.swift */; };
+		6FE88CF12AA8A30C003012F0 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE88CF02AA8A30C003012F0 /* ExploreView.swift */; };
+		6FE88CF42AA8A540003012F0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE88CF32AA8A540003012F0 /* ProfileView.swift */; };
+		6FE88CF62AA8AE7C003012F0 /* PickerPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE88CF52AA8AE7C003012F0 /* PickerPlus.swift */; };
+		6FE88CF92AA8C1EA003012F0 /* PostFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE88CF82AA8C1EA003012F0 /* PostFilterViewModel.swift */; };
+		6FE88CFC2AA8E28D003012F0 /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE88CFB2AA8E28D003012F0 /* UserRowView.swift */; };
+		6FE88D022AA8F96A003012F0 /* AdsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE88D012AA8F96A003012F0 /* AdsView.swift */; };
+		6FE88D042AA900CB003012F0 /* FilterBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE88D032AA900CB003012F0 /* FilterBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +59,20 @@
 		6FE88CC72AA7B44C003012F0 /* college.ioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = college.ioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE88CCB2AA7B44C003012F0 /* college_ioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = college_ioUITests.swift; sourceTree = "<group>"; };
 		6FE88CCD2AA7B44C003012F0 /* college_ioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = college_ioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6FE88CDA2AA7B696003012F0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6FE88CDF2AA7BEA5003012F0 /* CollegeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeData.swift; sourceTree = "<group>"; };
+		6FE88CE12AA7BF77003012F0 /* colleges.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = colleges.csv; sourceTree = "<group>"; };
+		6FE88CE32AA7C2A9003012F0 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		6FE88CE72AA8886E003012F0 /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		6FE88CEA2AA8999C003012F0 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		6FE88CED2AA8A036003012F0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6FE88CF02AA8A30C003012F0 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		6FE88CF32AA8A540003012F0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		6FE88CF52AA8AE7C003012F0 /* PickerPlus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerPlus.swift; sourceTree = "<group>"; };
+		6FE88CF82AA8C1EA003012F0 /* PostFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFilterViewModel.swift; sourceTree = "<group>"; };
+		6FE88CFB2AA8E28D003012F0 /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
+		6FE88D012AA8F96A003012F0 /* AdsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsView.swift; sourceTree = "<group>"; };
+		6FE88D032AA900CB003012F0 /* FilterBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FE88CDE2AA7BE2D003012F0 /* SwiftCSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +126,13 @@
 			children = (
 				6FE88CB02AA7B44B003012F0 /* college_ioApp.swift */,
 				6FE88CB22AA7B44B003012F0 /* ContentView.swift */,
+				6FE88D032AA900CB003012F0 /* FilterBarView.swift */,
+				6FE88CDA2AA7B696003012F0 /* LoginView.swift */,
+				6FE88CDF2AA7BEA5003012F0 /* CollegeData.swift */,
+				6FE88CE32AA7C2A9003012F0 /* RegistrationView.swift */,
+				6FE88CF52AA8AE7C003012F0 /* PickerPlus.swift */,
+				6FE88CE62AA8884D003012F0 /* Components */,
+				6FE88CE12AA7BF77003012F0 /* colleges.csv */,
 				6FE88CB42AA7B44C003012F0 /* Assets.xcassets */,
 				6FE88CB62AA7B44C003012F0 /* Preview Content */,
 			);
@@ -127,6 +164,101 @@
 			path = college.ioUITests;
 			sourceTree = "<group>";
 		};
+		6FE88CE52AA88842003012F0 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				6FE88CE72AA8886E003012F0 /* PostsView.swift */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		6FE88CE62AA8884D003012F0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6FE88D002AA8F95C003012F0 /* Ads */,
+				6FE88CFA2AA8E274003012F0 /* Users */,
+				6FE88CF72AA8C1B9003012F0 /* ViewModels */,
+				6FE88CF22AA8A533003012F0 /* Profile */,
+				6FE88CEF2AA8A2FE003012F0 /* Explore */,
+				6FE88CEC2AA8A026003012F0 /* MainView */,
+				6FE88CE92AA89991003012F0 /* Feed */,
+				6FE88CE52AA88842003012F0 /* Posts */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6FE88CE92AA89991003012F0 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				6FE88CEA2AA8999C003012F0 /* FeedView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		6FE88CEC2AA8A026003012F0 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				6FE88CED2AA8A036003012F0 /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		6FE88CEF2AA8A2FE003012F0 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				6FE88CFE2AA8E2D2003012F0 /* View */,
+				6FE88CFD2AA8E2CA003012F0 /* ViewModel */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		6FE88CF22AA8A533003012F0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6FE88CF32AA8A540003012F0 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		6FE88CF72AA8C1B9003012F0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6FE88CF82AA8C1EA003012F0 /* PostFilterViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6FE88CFA2AA8E274003012F0 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				6FE88CFB2AA8E28D003012F0 /* UserRowView.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		6FE88CFD2AA8E2CA003012F0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6FE88CFE2AA8E2D2003012F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6FE88CF02AA8A30C003012F0 /* ExploreView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6FE88D002AA8F95C003012F0 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				6FE88D012AA8F96A003012F0 /* AdsView.swift */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +275,9 @@
 			dependencies = (
 			);
 			name = college.io;
+			packageProductDependencies = (
+				6FE88CDD2AA7BE2D003012F0 /* SwiftCSV */,
+			);
 			productName = college.io;
 			productReference = 6FE88CAD2AA7B44B003012F0 /* college.io.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +350,9 @@
 				Base,
 			);
 			mainGroup = 6FE88CA42AA7B44B003012F0;
+			packageReferences = (
+				6FE88CDC2AA7BE2D003012F0 /* XCRemoteSwiftPackageReference "SwiftCSV" */,
+			);
 			productRefGroup = 6FE88CAE2AA7B44B003012F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FE88CE22AA7BF77003012F0 /* colleges.csv in Resources */,
 				6FE88CB82AA7B44C003012F0 /* Preview Assets.xcassets in Resources */,
 				6FE88CB52AA7B44C003012F0 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +396,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FE88CF92AA8C1EA003012F0 /* PostFilterViewModel.swift in Sources */,
+				6FE88CEB2AA8999C003012F0 /* FeedView.swift in Sources */,
+				6FE88CF62AA8AE7C003012F0 /* PickerPlus.swift in Sources */,
+				6FE88D022AA8F96A003012F0 /* AdsView.swift in Sources */,
+				6FE88D042AA900CB003012F0 /* FilterBarView.swift in Sources */,
+				6FE88CF12AA8A30C003012F0 /* ExploreView.swift in Sources */,
+				6FE88CF42AA8A540003012F0 /* ProfileView.swift in Sources */,
+				6FE88CEE2AA8A036003012F0 /* MainView.swift in Sources */,
+				6FE88CDB2AA7B697003012F0 /* LoginView.swift in Sources */,
+				6FE88CE02AA7BEA5003012F0 /* CollegeData.swift in Sources */,
+				6FE88CE82AA8886E003012F0 /* PostsView.swift in Sources */,
 				6FE88CB32AA7B44B003012F0 /* ContentView.swift in Sources */,
+				6FE88CFC2AA8E28D003012F0 /* UserRowView.swift in Sources */,
 				6FE88CB12AA7B44B003012F0 /* college_ioApp.swift in Sources */,
+				6FE88CE42AA7C2A9003012F0 /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +569,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"college.io/Preview Content\"";
-				DEVELOPMENT_TEAM = J8S9X52T32;
+				DEVELOPMENT_TEAM = Q3BWML7R33;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -425,6 +577,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,7 +599,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"college.io/Preview Content\"";
-				DEVELOPMENT_TEAM = J8S9X52T32;
+				DEVELOPMENT_TEAM = Q3BWML7R33;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -454,6 +607,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,6 +737,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6FE88CDC2AA7BE2D003012F0 /* XCRemoteSwiftPackageReference "SwiftCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftcsv/SwiftCSV";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6FE88CDD2AA7BE2D003012F0 /* SwiftCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6FE88CDC2AA7BE2D003012F0 /* XCRemoteSwiftPackageReference "SwiftCSV" */;
+			productName = SwiftCSV;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6FE88CA52AA7B44B003012F0 /* Project object */;
 }

@@ -6,3 +6,14 @@
 //
 
 import Foundation
+enum PostFilterViewModel:  Int, CaseIterable {
+    case posts
+    case ads
+    
+    var title: String {
+        switch self {
+            case .posts: return "Posts"
+            case .ads: return "Ads"
+        }
+    }
+}

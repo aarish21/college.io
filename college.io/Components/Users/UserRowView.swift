@@ -9,7 +9,25 @@ import SwiftUI
 
 struct UserRowView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack(alignment: .center){
+            Image("Profilepic")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .foregroundColor(.blue)
+                .frame(width: 56,height: 56)
+                .clipShape(Circle())
+                .padding(.leading)
+            VStack(alignment: .leading){
+                Text("Aarish Rahman")
+                    .bold()
+                    
+                    .foregroundColor(.black)
+                Text("@aarish21")
+                    .foregroundColor(.secondary)
+            }.padding(.leading,10)
+           
+            Spacer()
+        }
     }
 }
 
